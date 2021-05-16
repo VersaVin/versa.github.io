@@ -1,0 +1,135 @@
+*{
+
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0px;
+    background: linear-gradient(to left, green, blue 50%, #eee 100%);
+    color: white;
+    width: 80%;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.images{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    image-orientation: flip;
+    position: relative;
+    text-align: center;
+    
+}
+img{
+    /*width: 80%;*/
+    border-radius: 20px;
+    justify-content: space-around;
+    height: 350px;
+    width: 550px;
+       
+}
+
+
+a:hover{
+    opacity: 0.2;
+    cursor:progress;
+
+}
+
+button{
+    background: linear-gradient(to left, green, black 20%, lightseagreen 100%);
+    color: white;
+    border-radius: 5px;
+
+}
+.img1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    border-radius: 10px;
+    height: 450px;
+    width: 800px;
+    
+}
+iframe:hover{
+    filter: brightness(10%);
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2.5vw;
+    
+    
+}
+h1 > a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: lavender;
+}
+h1 > a:hover{
+    color:black;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(19, 16, 16); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(19, 16, 16); 
+  }
+  nav > a:hover{
+      cursor:pointer;
+      color: black;
+  }
+  nav > a{
+      text-decoration: none;
+      color: white;
+  }
+  nav{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      background: black;
+      margin-top: 2px;
+      padding: 10px;
+      margin-left: 1px;
+      margin-right: 1px;
+      border-radius: 5px;
+  }
+hr{
+    padding: 50px;
+}
+  
+
+
+
+
+
